@@ -1,0 +1,22 @@
+[INFO ] 2023-07-21 01:13:03.771 [main] UserTest - --------creating user--------
+[INFO ] 2023-07-21 01:13:25.061 [main] UserTest - --------user is created--------
+[INFO ] 2023-07-21 01:24:47.280 [main] UserTest - --------creating user--------
+[INFO ] 2023-07-21 01:24:53.887 [main] UserTest - --------user is created--------
+[INFO ] 2023-07-21 01:24:53.952 [main] UserTest - --------reading user info--------
+[INFO ] 2023-07-21 01:24:54.577 [main] UserTest - --------user info displayed--------
+[INFO ] 2023-07-21 01:24:54.588 [main] UserTest - --------updaating user--------
+[INFO ] 2023-07-21 01:24:55.258 [main] UserTest - --------user updated--------
+[INFO ] 2023-07-21 01:24:55.270 [main] UserTest - --------deleting user--------
+[INFO ] 2023-07-21 01:24:55.897 [main] UserTest - --------user deleted--------
+[INFO ] 2023-07-21 01:24:55.908 [main] UserTest - --------viewing all user--------
+[INFO ] 2023-07-21 01:24:56.445 [main] UserTest - --------all users displayed--------
+[INFO ] 2023-07-21 01:38:53.099 [main] UserTest - --------creating user--------
+[INFO ] 2023-07-21 01:39:06.988 [main] UserTest - --------user is created--------
+[INFO ] 2023-07-21 01:39:07.012 [main] UserTest - --------reading user info--------
+[INFO ] 2023-07-21 01:39:07.854 [main] UserTest - --------user info displayed--------
+[INFO ] 2023-07-21 01:39:07.859 [main] UserTest - --------updaating user--------
+[INFO ] 2023-07-21 01:39:11.858 [main] UserTest - --------user updated--------
+[INFO ] 2023-07-21 01:39:11.868 [main] UserTest - --------deleting user--------
+[INFO ] 2023-07-21 01:39:13.590 [main] UserTest - --------user deleted--------
+[INFO ] 2023-07-21 01:39:13.598 [main] UserTest - --------viewing all user--------
+[INFO ] 2023-07-21 01:39:14.285 [main] UserTest - --------all users displayed--------

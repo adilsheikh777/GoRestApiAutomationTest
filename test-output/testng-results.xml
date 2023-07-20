@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T01:24:43 IST" name="GoRestApiSuite" finished-at="2023-07-21T01:24:56 IST" duration-ms="12590">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T01:24:43 IST" name="GoRestApiTest" finished-at="2023-07-21T01:24:56 IST" duration-ms="12590">
+      <class name="api.test.UserTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:44 IST" name="setUp" finished-at="2023-07-21T01:24:47 IST" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUser(org.testng.ITestContext)[pri:1, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:47 IST" name="createUser" finished-at="2023-07-21T01:24:53 IST" duration-ms="6623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@787988f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="ViewUser(org.testng.ITestContext)[pri:2, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:53 IST" name="ViewUser" finished-at="2023-07-21T01:24:54 IST" duration-ms="627" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@787988f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewUser -->
+        <test-method signature="updatingUser(org.testng.ITestContext)[pri:3, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:54 IST" name="updatingUser" finished-at="2023-07-21T01:24:55 IST" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@787988f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingUser -->
+        <test-method signature="deletingUser(org.testng.ITestContext)[pri:4, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:55 IST" name="deletingUser" finished-at="2023-07-21T01:24:55 IST" duration-ms="631" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@787988f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingUser -->
+        <test-method signature="getAllUsers(org.testng.ITestContext)[pri:5, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:55 IST" name="getAllUsers" finished-at="2023-07-21T01:24:56 IST" duration-ms="541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@787988f4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+      </class> <!-- api.test.UserTest -->
+    </test> <!-- GoRestApiTest -->
+  </suite> <!-- GoRestApiSuite -->
+</testng-results>
