@@ -21,10 +21,10 @@ public class DDTest {
 	    payload.setStatus(status);
 	    
 	    Response response = UserEndPoints.postUser(payload);
+	     
+	    response.then().log().body();
 	    
 	    Assert.assertEquals(response.statusCode(), 201);
-	    
-	    response.then().log().body();
 	}
 	
 }
