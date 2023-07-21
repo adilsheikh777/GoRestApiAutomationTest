@@ -7,7 +7,9 @@
 </listeners>
   <test thread-count="5" name="GoRestApiTest">
     <classes>
-      <class name="api.test.UserTest"/>
+       <class name="api.test.UserTest"/>
+       <class name="api.test.UserTest2"/>     
+       <class name="api.test.DDTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

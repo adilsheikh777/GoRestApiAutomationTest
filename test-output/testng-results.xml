@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-21T01:24:43 IST" name="GoRestApiSuite" finished-at="2023-07-21T01:24:56 IST" duration-ms="12590">
+  <suite started-at="2023-07-21T15:10:05 IST" name="Default suite" finished-at="2023-07-21T15:10:28 IST" duration-ms="22685">
     <groups>
     </groups>
-    <test started-at="2023-07-21T01:24:43 IST" name="GoRestApiTest" finished-at="2023-07-21T01:24:56 IST" duration-ms="12590">
+    <test started-at="2023-07-21T15:10:05 IST" name="Default test" finished-at="2023-07-21T15:10:28 IST" duration-ms="22685">
       <class name="api.test.UserTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:44 IST" name="setUp" finished-at="2023-07-21T01:24:47 IST" duration-ms="2508" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UserTest@54a7079e]" started-at="2023-07-21T15:10:05 IST" name="setUp" finished-at="2023-07-21T15:10:07 IST" duration-ms="2067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createUser(org.testng.ITestContext)[pri:1, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:47 IST" name="createUser" finished-at="2023-07-21T01:24:53 IST" duration-ms="6623" status="PASS">
+        <test-method signature="createUser(org.testng.ITestContext)[pri:1, instance:api.test.UserTest@54a7079e]" started-at="2023-07-21T15:10:07 IST" name="createUser" finished-at="2023-07-21T15:10:15 IST" duration-ms="7641" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@787988f4]]>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="ViewUser(org.testng.ITestContext)[pri:2, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:53 IST" name="ViewUser" finished-at="2023-07-21T01:24:54 IST" duration-ms="627" status="PASS">
+        <test-method signature="ViewUser(org.testng.ITestContext)[pri:2, instance:api.test.UserTest@54a7079e]" started-at="2023-07-21T15:10:15 IST" name="ViewUser" finished-at="2023-07-21T15:10:16 IST" duration-ms="1079" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@787988f4]]>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ViewUser -->
-        <test-method signature="updatingUser(org.testng.ITestContext)[pri:3, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:54 IST" name="updatingUser" finished-at="2023-07-21T01:24:55 IST" duration-ms="674" status="PASS">
+        <test-method signature="updatingUser(org.testng.ITestContext)[pri:3, instance:api.test.UserTest@54a7079e]" started-at="2023-07-21T15:10:16 IST" name="updatingUser" finished-at="2023-07-21T15:10:17 IST" duration-ms="660" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@787988f4]]>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- updatingUser -->
-        <test-method signature="deletingUser(org.testng.ITestContext)[pri:4, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:55 IST" name="deletingUser" finished-at="2023-07-21T01:24:55 IST" duration-ms="631" status="PASS">
+        <test-method signature="deletingUser(org.testng.ITestContext)[pri:4, instance:api.test.UserTest@54a7079e]" started-at="2023-07-21T15:10:17 IST" name="deletingUser" finished-at="2023-07-21T15:10:17 IST" duration-ms="753" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@787988f4]]>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deletingUser -->
-        <test-method signature="getAllUsers(org.testng.ITestContext)[pri:5, instance:api.test.UserTest@3f6b0be5]" started-at="2023-07-21T01:24:55 IST" name="getAllUsers" finished-at="2023-07-21T01:24:56 IST" duration-ms="541" status="PASS">
+        <test-method signature="getAllUsers(org.testng.ITestContext)[pri:5, instance:api.test.UserTest@54a7079e]" started-at="2023-07-21T15:10:17 IST" name="getAllUsers" finished-at="2023-07-21T15:10:18 IST" duration-ms="724" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@787988f4]]>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
               </value>
             </param>
           </params>
@@ -67,6 +67,173 @@
           </reporter-output>
         </test-method> <!-- getAllUsers -->
       </class> <!-- api.test.UserTest -->
-    </test> <!-- GoRestApiTest -->
-  </suite> <!-- GoRestApiSuite -->
+      <class name="api.test.DDTest">
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTest@55634720]" started-at="2023-07-21T15:10:20 IST" name="testPostUser" data-provider="Data" finished-at="2023-07-21T15:10:21 IST" duration-ms="851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user1112233qqqghgg@x.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTest@55634720]" started-at="2023-07-21T15:10:21 IST" name="testPostUser" data-provider="Data" finished-at="2023-07-21T15:10:22 IST" duration-ms="651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user2345egdgfgfghjslk@l.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTest@55634720]" started-at="2023-07-21T15:10:22 IST" name="testPostUser" data-provider="Data" finished-at="2023-07-21T15:10:22 IST" duration-ms="662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user32343948fdjjfhqwioo@g.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testPostUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:api.test.DDTest@55634720]" started-at="2023-07-21T15:10:22 IST" name="testPostUser" data-provider="Data" finished-at="2023-07-21T15:10:23 IST" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[user498988hhjkhjbkjjjj@a.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+      </class> <!-- api.test.DDTest -->
+      <class name="api.test.UserTest2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UserTest2@428640fa]" started-at="2023-07-21T15:10:23 IST" name="setUp" finished-at="2023-07-21T15:10:23 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUser(org.testng.ITestContext)[pri:1, instance:api.test.UserTest2@428640fa]" started-at="2023-07-21T15:10:23 IST" name="createUser" finished-at="2023-07-21T15:10:24 IST" duration-ms="774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="ViewUser(org.testng.ITestContext)[pri:2, instance:api.test.UserTest2@428640fa]" started-at="2023-07-21T15:10:24 IST" name="ViewUser" finished-at="2023-07-21T15:10:25 IST" duration-ms="838" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ViewUser -->
+        <test-method signature="updatingUser(org.testng.ITestContext)[pri:3, instance:api.test.UserTest2@428640fa]" started-at="2023-07-21T15:10:25 IST" name="updatingUser" finished-at="2023-07-21T15:10:26 IST" duration-ms="1196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatingUser -->
+        <test-method signature="deletingUser(org.testng.ITestContext)[pri:4, instance:api.test.UserTest2@428640fa]" started-at="2023-07-21T15:10:26 IST" name="deletingUser" finished-at="2023-07-21T15:10:27 IST" duration-ms="942" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletingUser -->
+        <test-method signature="getAllUsers(org.testng.ITestContext)[pri:5, instance:api.test.UserTest2@428640fa]" started-at="2023-07-21T15:10:27 IST" name="getAllUsers" finished-at="2023-07-21T15:10:28 IST" duration-ms="948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4a70d302]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllUsers -->
+      </class> <!-- api.test.UserTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
